@@ -7,8 +7,6 @@
 .sfdx/
 .localdevserver/
 deploy-options.json
-.husky
-.vscode
 
 # LWC VSCode autocomplete
 **/lwc/jsconfig.json
@@ -41,6 +39,9 @@ $RECYCLE.BIN/
 # Local environment variables
 .env
 
-classes/copado__*
-triggers/copado__*
-pages/copado__*
+# Python Salesforce Functions
+**/__pycache__/
+**/.venv/
+**/venv/
+
+.copado
