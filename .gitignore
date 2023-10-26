@@ -40,3 +40,7 @@ $RECYCLE.BIN/
 
 # Local environment variables
 .env
+
+classes/copado__*
+triggers/copado__*
+pages/copado__*
