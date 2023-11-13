@@ -12,13 +12,30 @@
         <field>LobTest__c.Testing__c</field>
         <readable>false</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>NAICS__c.Description__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>NAICS__c.Industry__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Bicyle__c-Bicyle Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>LobTest__c-LobTest Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>NAICS__c-NAICS Layout</layout>
+    </layoutAssignments>
     <loginHours n1:nil="true" />
+    <tabVisibilities>
+        <tab>NAICS__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
     <userLicense>Guest User License</userLicense>
     <userPermissions>
         <enabled>true</enabled>
