@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Profile xmlns="http://soap.sforce.com/2006/04/metadata"
-      xmlns:n1="http://www.w3.org/2001/XMLSchema-instance">
+<Profile xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:n1="http://www.w3.org/2001/XMLSchema-instance">
     <classAccesses>
         <apexClass>AccountAutomations</apexClass>
         <enabled>true</enabled>
@@ -12,27 +11,7 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Account.PR_Test__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Account.Pipeline_Test__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Bicyle__c.Type__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>NAICS__c.Description__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>NAICS__c.Industry__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
@@ -41,10 +20,7 @@
     <layoutAssignments>
         <layout>Bicyle__c-Bicyle Layout</layout>
     </layoutAssignments>
-    <layoutAssignments>
-        <layout>NAICS__c-NAICS Layout</layout>
-    </layoutAssignments>
-    <loginHours n1:nil="true" />
+    <loginHours n1:nil="true"></loginHours>
     <loginIpRanges>
         <description>All</description>
         <endAddress>255.255.255.255</endAddress>
@@ -59,19 +35,6 @@
         <object>Bicyle__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>NAICS__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <tabVisibilities>
-        <tab>NAICS__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
